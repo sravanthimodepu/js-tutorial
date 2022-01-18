@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+## Welcome to JavaScript Tutorial for Beginners
 
-You can use the [editor on GitHub](https://github.com/sravanthimodepu/js-tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+JavaScript is the most programming language of Web
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction
 
-### Markdown
+JavaScript is used to interactive websites. it is mainly used for:
+1. Client-side vaildation
+2. Dynamic drop-down menu
+3. Displayng date and time
+4. Displaying popup windows	and dialogue boxes	
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
+```Syntax	
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<script type="text/javascript">
+	document.write("JavaScript Programming Tutorials");
+</script>	
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+We can use javascript in 3 ways:
+1. Head 
+2. Body	
+3. External file
 
-### Jekyll Themes
+### Head
+we can use javascript in head tag of the html as 
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>example</title>
+	<script type="text/javascript">
+	document.write("JavaScript Programming Tutorials");
+    </script>
+</head>
+<body>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sravanthimodepu/js-tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</body>
+</html>	
 
-### Support or Contact
+we can write content in the body and call the function from javascript which is given in the head tag
+
+### Body
+
+### External file
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
