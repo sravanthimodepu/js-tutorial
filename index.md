@@ -11,7 +11,7 @@ JavaScript is used to create interactive websites. it is mainly used for:
 4. Displaying popup windows	and dialogue boxes	
 
 
-<script></script> tag is used to write javascript and include it in html page
+* <script></script> * tag is used to write javascript and include it in html page
 
 ## Syntax
 
