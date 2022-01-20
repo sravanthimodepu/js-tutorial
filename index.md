@@ -10,8 +10,12 @@ JavaScript is used to create interactive websites. it is mainly used for:
 3. Displayng date and time
 4. Displaying popup windows	and dialogue boxes	
 
+
 <script></script> tag is used to write javascript and include it in html page
 
+## Syntax
+
+```Syntax	
 ## How to use Javascript code
  - we will use document.write(); method is used to display the content in the webpage with the help of script tags.
  
@@ -31,15 +35,17 @@ We can insert javascript code in 3 ways:
 
 ### Head
 we can use javascript in head tag of the html as 
+
 ```
-<!DOCTYPE html>
+Example
+<<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>example</title>
 	<script type="text/javascript">
-	document.write("JavaScript Programming Tutorials");
-    </script>
+	     document.write("JavaScript Programming Tutorials");
+    	</script>
 </head>
 <body>
 
@@ -93,4 +99,6 @@ output:
 
 *Programming Tutorials*	
 ```
+
+
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
